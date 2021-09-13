@@ -21,8 +21,8 @@ for item in model_list:
     path = os.path.join(main_path, model_name)
     archs = ["GPU", "zcu102", "vck190", "u50", "u50lv9e", "u50-v3me"]
     os.makedirs(path, exist_ok=True)
-    link = "https://raw.githubusercontent.com/Xilinx/Vitis-AI/master/models/AI-Model-Zoo/model-list/{}/model.yaml".format(
-            model_name)
+    link = "https://raw.githubusercontent.com/Xilinx/Vitis-AI/master/models/AI-Model-Zoo/ \
+            model-list/{}/model.yaml".format(model_name)
     i = 0
     for line in urllib.request.urlopen(link):
         if "download link:" in line.decode('utf-8'):
