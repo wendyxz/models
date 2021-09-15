@@ -1,5 +1,5 @@
 # Models Download Script
-python script to mass download Xilinx Model Zoo from Github
+Script that mass downloads Xilinx AI Model Zoo from Github
 
 ## Technologies
 Project is created with:
